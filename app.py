@@ -52,4 +52,4 @@ def recommend(item: Item):
 # Run the application using uvicorn
 # This should be in a separate file or under a __name__ == "__main__" condition
 if __name__ == '__main__':
-    uvicorn.run(app, host='127.0.0.1', port=8000)
+    uvicorn.run(app, host='0.0.0.0', port=8000)
